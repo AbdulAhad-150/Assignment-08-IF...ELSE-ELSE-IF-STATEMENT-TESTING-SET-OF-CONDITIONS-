@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+// Question 1
+// Write a program that takes a character (number or string) in a variable & checks whether the given input is a number, uppercase letter or lower case letter. (Hint: ASCII codes:- A=65, Z=90, a=97, z=122).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Question 3
+// Write a program that takes input a number from user & state whether the number is positive, negative or zero. 
+
+// Answer 3
+
+var num1=prompt("enter a number");
+if (num1 > 0){
+    document.write("the number is positive");
+}
+    else if(num1 == 0){
+    document.write("the number is Zero");
+}
+
+   else{
+    document.write("the num is negative ");
+}
+
+
+
+// Question 4
+// Write a program that takes a character (i.e. string of length 1) and returns true if it is a vowel, false otherwise
+
+// Answer 4
+
+var vowel = prompt("Write a charater")
+if (vowel=== "a"|| vowel ==="e"||vowel=== "i"|| vowel ==="o"||vowel=== "u"){
+    alert("correct")
+   
+}
+else {
+    alert("wrong")
+}
+
+
+
+
+
+
+// Question 5
+// Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+//      i. Check if user has entered password. If not, then give message “ Please enter your password”
+//      ii. Check if both passwords are same. If they are same, show message “Correct! The password you entered matches the original password”. Show “Incorrect password” otherwise.
+
+// Answer 5
+
+var correctPass1 = prompt("write a first password");
+var correctPass2 = prompt("Write a second password");
+if(correctPass1 ===correctPass2){
+    document.write("Correct! The password you entered matches the original password")
+}
+else{
+    document.write("Incorrect password");
+}
+
+
+
+
+
+//  Question 6
+
+//  This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+// Answer 6
+
+var greeting = "hi";
+var hour = prompt("what time it is ?");
+if (hour > 18){
+    document.write("good day")
+} else{
+    document.write("good evening")
+}
+
+
+
+
+// Question 7
+// Write a program that takes time as input from user in 24
+// hours clock format like: 1900 = 7pm. Implement the
+// following case using if, else & else if statements
+
+// Answer 7
+
+var userIn = prompt("write time 24 Hours clock format like: 1900 = 7pm.");
+
+if ( userIn === "0000" && "2400" && "24"){
+    alert("12 midnight")
+}   else if(userIn === "0100"){
+    alert(" 1 am ")
+}  
+    else if(userIn === "0200"){
+        alert(" 2 am ")
+    }
+    else if(userIn === "0300"){
+        alert(" 3 am ")
+    }
+    else if(userIn === "0400"){
+        alert(" 4 am ")
+    }
+    else if(userIn === "0500"){
+        alert(" 5 am ")
+    }
+    else if(userIn === "0600"){
+        alert(" 6 am ")
+    }
+    else if(userIn === "0700"){
+        alert(" 7 am ")
+    }
+    else if(userIn === "0800"){
+        alert(" 8 am ")
+    }
+    else if(userIn === "0900"){
+        alert(" 9 am ")
+    }
+    else if(userIn === "1000"){
+        alert(" 10 am ")
+    }
+    else if(userIn === "1100"){
+        alert(" 11 am ")
+    }
+    else if(userIn === "1200"){
+        alert("12 noon ")
+    }
+    else if(userIn === "1300"){
+        alert(" 1 pm ")
+    }
+    else if(userIn === "1400"){
+        alert(" 2 pm ")
+    }
+    else if(userIn === "1500"){
+        alert(" 3 pm ")
+    }
+    else if(userIn ==="1600"){
+        alert(" 4 pm ")
+    }
+    else if(userIn === "1700"){
+        alert(" 5 pm ")
+    }
+    else if(userIn === "1800"){
+        alert(" 6 pm ")
+    }
+    else if(userIn === "1900"){
+        alert(" 7 pm ")
+    }
+    else if(userIn === "2000"){
+        alert(" 8 pm ")
+    }
+    else if(userIn === "2100"){
+        alert(" 9 pm ")
+    }
+    else if(userIn === "2200"){
+        alert(" 10 pm ")
+    }
+    else if(userIn === "2300"){
+        alert(" 11 pm ")
+    }
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
